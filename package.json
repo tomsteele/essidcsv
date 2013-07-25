@@ -1,0 +1,16 @@
+{
+  "name": "essidcsv",
+  "version": "0.0.0",
+  "description": "Parse a kismet xml file to generate a essid,bssid csv",
+  "bin": {
+    "essidscv": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Steele",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "~0.2.8"
+  }
+}
